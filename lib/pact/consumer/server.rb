@@ -53,7 +53,7 @@ module Pact
     end
 
     def host
-      "localhost"
+      @options.host
     end
 
     def responsive?
